@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>My Yahoo</title>
+<script src="form.js"></script>
+<h1>Yahoo<i>!</i></h1>
+<link rel="stylesheet" type="text/css" href="Form.css">
+</head>
+<body>
+    <h4><a href="http://google.com">help</a></h4>
+    <div class="box">
+<form>
+    <div id="tex">
+   Sign up<br/>
+Create a yahoo email address <br/></div>
+
+    <input class="fname" type="text" name="fname" pattern="[A-Za-z]{1,32}" placeholder="First name">
+    <input id="lname" type="text" name="lname" pattern="[A-Za-z]{1,32}" placeholder="Last name" > <br/>
+    <input id="email" type="text" name="email" pattern="[0-9A-Za-z]"placeholder="Email address" required>
+    <input type="text" name="email" value="@yahoo.com" placeholder="@yahoo.com" readonly><br/>
+    <input class="password" type="password" method="post" name="password" placeholder="password"><br/>
+    <input list="Countrycode" name="Countrycode">
+    <datalist id="Countrycode">
+            <option value="In" selected="selected">India(+91)</option>
+            <option value="indonesia(+62)">
+            <option value="Iran(+98)">
+            <option value="Iraq(+964)">
+    </datalist>
+    <input type="text" name="Pnumber" placeholder="Phone number"><br/>
+    <input list="Months" name="Months" placeholder="January">
+    <datalist id="Months">
+        <option value="January">
+        <option value="Februray">
+        <option value="March">
+        <option value="April">
+        <option value="May">
+        <option value="June">
+        <option value="July">
+        <option value="August">
+        <option value="September">
+        <option value="October">
+        <option value="November">
+        <option value="December">
+     </datalist>
+     <input type="text" name="day" placeholder="Day">
+     <input id="year" type="text" name="year" placeholder="year"><br/>
+     <input id="gender" type="text" name="gender"  placeholder="Gender(optional)"><br/>
+     By clicking "continue", you agree to the
+     <a href="https://google.com">Term</a> and <a href="https://google.com">Privacy Policy</a><br/>
+
+     <input type="submit" value="Continue"><br/>
+     Already have an account?<a href="https://google.com">Sign in</a>
+</form>
+</div>
+</body>
+</html>
